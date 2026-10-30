@@ -1,0 +1,1210 @@
+{
+  "scope": "Original nonignored candidate files not copied in full, plus exclusion policies. This is not an enumeration of private ignored credentials or raw data.",
+  "original_candidate_count": 306,
+  "copied_in_full_count": 12,
+  "excluded_original_file_count": 294,
+  "files": [
+    {
+      "path": ".gitignore",
+      "reason": "Original configuration excluded; public-safe replacement authored separately"
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "reason": "Original configuration excluded; public-safe replacement authored separately"
+    },
+    {
+      "path": "app/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/adapters.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/audit.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/components.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/exports.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/forms.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/history.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/launch.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/local_chatgpt.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/main.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/requirements.txt",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/review_adapter.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/state.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/views/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/views/agent.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/views/financial.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/views/market.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/views/review.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/views/scenario.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "app/views/validation.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/AGENT_ADVERSARIAL_EVALUATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/AGENT_ARCHITECTURE.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/AGENT_EVIDENCE_CONTRACT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/AGENT_OFFLINE_EVALUATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/AGENT_SECURITY_THREAT_MODEL.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/AGENT_TOOL_REGISTRY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/API_ACCOUNT_APPROVAL_CHECKLIST.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/ARCHITECTURE_PROPOSAL.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/BASELINE_MODEL_EVALUATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/BASELINE_MODEL_SPECIFICATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/BREAK_EVEN_ANALYSIS_VALIDATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/CHATGPT_OAUTH_AND_TOKEN_SECURITY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/CHATGPT_SUBSCRIPTION_ELIGIBILITY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/CLAUDE_INTEGRATION_FEASIBILITY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/DASHBOARD_ARCHITECTURE.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/DASHBOARD_DESIGN_SYSTEM.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/DASHBOARD_PRIVACY_AND_LICENSE_AUDIT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/DATABASE_IMPLEMENTATION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/DATABASE_SCHEMA_PROPOSAL.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/DATA_ACCESS_AND_LICENSE_REVIEW.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/DATA_FEASIBILITY_AUDIT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/DATA_SOURCE_REGISTRY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/END_TO_END_PRODUCT_AUDIT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/ETL_PIPELINE_SPECIFICATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FEATURE_REGISTRY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FINANCIAL_ASSUMPTIONS_REGISTRY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FINANCIAL_MODEL_VALIDATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FINANCIAL_SENSITIVITY_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FIRST_LIVE_REQUEST_PROTOCOL.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FIRST_LOGIN_BLOCKER_RESOLUTION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FIRST_REAL_LOGIN_APPROVAL_CHECKLIST.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FIRST_REAL_LOGIN_EXECUTION_PROTOCOL.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FOMC_EVENT_REGISTRY_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FOMC_HISTORICAL_COVERAGE_AUDIT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FORECAST_LEAKAGE_AUDIT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FORECAST_RESEARCH_TRACKS.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FORECAST_ROBUSTNESS_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/FORECAST_TARGET_SPECIFICATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/GEOGRAPHIC_COMPATIBILITY_REVIEW.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/GITHUB_PUBLICATION_READINESS.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/HISTORICAL_DATA_FRESHNESS_AUDIT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/HISTORICAL_VINTAGE_FEASIBILITY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/HOLD_SELL_RENT_COMPARISON_FRAMEWORK.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/IP_DATA_RISK_REVIEW.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/KEYCHAIN_NATIVE_VERIFICATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/LIVE_PILOT_AUTHORIZATION_CHECKLIST.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/LIVE_PILOT_COST_ESTIMATE.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/LIVE_PILOT_FINAL_GATE.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/LIVE_PILOT_ROLLBACK_PLAN.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/LIVE_PILOT_TEST_PLAN.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/LOCAL_CHATGPT_CONNECTION_SECURITY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/LOCAL_CREDENTIAL_STORAGE.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/LOCAL_FIRST_PRODUCT_ARCHITECTURE.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/MACOS_HELPER_SIGNING_AND_PACKAGING.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/MACOS_KEYCHAIN_HOST_ARCHITECTURE_DECISION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/MACRO_DATA_SOURCE_AUDIT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/MACRO_FEATURE_ABLATION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/MACRO_FEATURE_REGISTRY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/MACRO_FORECAST_STABILITY_ANALYSIS.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/MACRO_MISSINGNESS_ANALYSIS.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/MODEL_COMPARISON_UNCERTAINTY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/MODEL_EVALUATION_PROTOCOL.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/MODEL_FREEZE_MANIFEST.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/NATIVE_HELPER_IPC_SECURITY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/NATIVE_HELPER_TOKEN_CONFINEMENT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/NATIVE_KEYCHAIN_PROBE_PREPARATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/OFFLINE_PROVIDER_VALIDATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/OIDC_PRODUCTION_COMPATIBILITY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/OIDC_VERIFICATION_AND_KEY_ROTATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PERSISTENT_AUTHORIZATION_CONTROLS.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE2A_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE2B_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE2C_DATABASE_MIGRATION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE2C_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE2D_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE3A_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE3B_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE3B_LEAKAGE_AND_HOLDOUT_AUDIT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE3B_PREREGISTERED_PROTOCOL.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE3C_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE4A_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE4B_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5A_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5B_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5C_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5D_L0B_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5D_L0_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5D_L1A_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5D_P_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5D_T_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5E_EXECUTION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5F_A_IMPLEMENTATION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5F_B_LIVE_AUTHORIZATION_PREREQUISITES.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5F_B_SECURITY_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5F_C_FIRST_LOGIN_PREREQUISITES.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5F_C_READINESS_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5F_D_NATIVE_HELPER_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PHASE5F_E_NATIVE_VALIDATION_PREREQUISITES.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PILOT_ALLOWLIST_SPECIFICATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PILOT_AUTHORIZATION_BOUNDARY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PILOT_DURABLE_BUDGET_LEDGER.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PILOT_LOCKOUT_AND_RECOVERY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/POINT_IN_TIME_VALIDITY_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PREDICTION_REGISTRY_SPECIFICATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PRODUCTION_AUTHORIZATION_READINESS.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PROJECT_CHARTER.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PROPERTY_FINANCIAL_MODEL_SPECIFICATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PROSPECTIVE_VALIDATION_PROTOCOL.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PROVIDER_COST_GUARDRAILS.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PROVIDER_CREDENTIAL_LIFECYCLE.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PROVIDER_OFFLINE_CONTRACT_TESTS.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PROVIDER_SECURITY_CONTROLS.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PROVIDER_STATE_MACHINE.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PROVIDER_TRANSPORT_RELIABILITY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/PROVIDER_USAGE_ACCOUNTING.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/REAL_PROVIDER_READINESS.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/REAL_PROVIDER_TRANSPORT_SPECIFICATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/RESPONSES_ADAPTER_CONTRACT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/RESPONSES_API_ADAPTER_PLAN.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/REVIEWER_WORKFLOW_SPECIFICATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/ROLLBACK_PROTECTION_ASSESSMENT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/ROLLING_BACKTEST_PROTOCOL.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/SCENARIO_INTELLIGENCE_SPECIFICATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/STREAMLIT_INTEGRATION_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/SUBSCRIPTION_USAGE_AND_BILLING_BOUNDARIES.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/TARGET_DATA_COVERAGE_REPORT.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/TARGET_GENERATION_VALIDATION.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/TAX_AND_LEGAL_LIMITATIONS.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/USER_OWNED_INFERENCE_POLICY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/WEB_EDITION_ELIGIBILITY_AND_SECURITY.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/WEEK1_IMPLEMENTATION_PLAN.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/WEEK2_EXPERIMENT_MANIFEST.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "docs/WEEK2_FORECAST_READINESS.md",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "native/macos/HostConfiguration.example.json",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "native/macos/PropertyIQCredentialHelper/HelperCore.swift",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "native/macos/Tests/OfflineHarness.swift",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "notebooks/PHASE2D_AUDIT.ipynb",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "notebooks/PHASE5C_DATA_FRESHNESS.ipynb",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/audit.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/context.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/evaluation.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/orchestrator.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/pilot/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/pilot/allowlist.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/pilot/authorization.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/pilot/controller.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/pilot/ledger.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/pilot/manifest-v1.json",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/pilot/policy.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/pilot/trust.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/provider_runtime.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/providers.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/safety.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/schemas.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/tools.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/transport/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/transport/accounting.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/transport/credentials.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/transport/openai_chat.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/transport/requirements.txt",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/agent/verification.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/database/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/database/cli.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/database/macro_cli.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/database/macro_migration.sql",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/database/macro_migrations.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/database/prediction_registry.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/database/schema.sql",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/database/warehouse.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/evaluation/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/evaluation/audit.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/evaluation/forecast_robustness.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/evaluation/macro_ablation.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/evaluation/macro_ablation_audit.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/evaluation/macro_ablation_report.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/evaluation/metrics.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/evaluation/phase3c_report.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/evaluation/plots.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/evaluation/prospective_monitor.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/evaluation/report.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/evaluation/tables.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/features/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/features/availability.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/features/macro_ablation.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/features/macro_features.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/features/targets.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/finance/cli.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/finance/forecast_adapter.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/finance/report.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/finance/scenario_cli.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/finance/scenario_report.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/forecasting/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/forecasting/cli.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/forecasting/data.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/forecasting/engine.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/forecasting/macro_ablation.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/forecasting/manifest.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/forecasting/models.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/forecasting/prospective.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/ingestion/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/ingestion/etl.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/ingestion/historical_acquire.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/ingestion/historical_etl.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/ingestion/local_snapshots.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/ingestion/macro_acquire.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/ingestion/macro_etl.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/ingestion/macro_parse.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/ingestion/macro_sources.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/ingestion/requirements-census.txt",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/ingestion/zillow.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/connection.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/contracts.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/durable.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/helper.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/keychain.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/keychain_probe.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/oauth.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/oidc.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/responses.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/rollback.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/security-requirements.txt",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/local_chatgpt/storage.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/policy_events/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/policy_events/fomc.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/policy_events/historical.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/review/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/review/cli.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/review/workflow.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/scenarios/policy.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/user_owned_ai/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/user_owned_ai/mock.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/coverage.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/financial_model.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/macro_missingness.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/macro_quality.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/phase2d_integrity.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/product_audit.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/prospective.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/prospective_audit.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/quality.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/research_readiness.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/reviewer_inputs.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/scenario_audit.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/scenario_bundle.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "src/validation/warehouse_checks.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/__init__.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/browser_harness.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_coverage.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_keychain_probe.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase2b.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase2c.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase2d.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase3a.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase3b.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase3c.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase4a.py",
+      "reason": "Full original file excluded; only four portable synthetic AST nodes extracted to tests/test_finance.py"
+    },
+    {
+      "path": "tests/test_phase4b.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase5a.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase5b.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase5c.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase5dl0b.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase5dl1a.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase5dp.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase5dt.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase5e.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase5fa.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase5fb.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase5fc.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    },
+    {
+      "path": "tests/test_phase5fd.py",
+      "reason": "Original research or execution material outside the strictly allowlisted synthetic release"
+    }
+  ],
+  "always_excluded": [
+    ".git/** (original history and staging metadata are not release files)",
+    "data/**",
+    "**/.env*",
+    "**/secrets.toml",
+    "**/*.key",
+    "**/*.pem",
+    "**/*.sqlite",
+    "**/*.db",
+    "**/*.csv",
+    "**/*.parquet",
+    "**/*.log",
+    "**/__pycache__/**",
+    ".venv/**",
+    "native helper / OAuth / Keychain / provider runtime components",
+    "real observations, restricted derivatives, private reviewer/registry records, execution receipts"
+  ],
+  "external_verification_metadata": {
+    "disposition": "EXCLUDED_FROM_RELEASE",
+    "records": [
+      "Step 3A approval and SHA-256 freeze records",
+      "Step 3B approval, verification, SHA-256 freeze and future Git commands",
+      "isolated virtual environments, installation/startup/test logs"
+    ],
+    "location_policy": "Outside the release staging directory; not part of the 97-file public manifest"
+  }
+}

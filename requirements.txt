@@ -1,0 +1,4 @@
+# Direct dependencies. Exact tested transitive resolution: requirements-lock.txt
+streamlit==1.66.1
+numpy==2.4.6
+pandas==3.0.3

@@ -1,0 +1,12 @@
+{
+  "classification": "SYNTHETIC_ONLY",
+  "generator": "propertyiq-fictional-market-v1",
+  "period": [
+    "2015-01-01",
+    "2024-12-01"
+  ],
+  "rows": 360,
+  "sha256": "48cccf53ee2402986ec579067598863629dbcb529c24a33efa3e615f28cd873d",
+  "external_data_used": false,
+  "calibrated_to_real_data": false
+}

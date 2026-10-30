@@ -1,0 +1,86 @@
+[
+  {
+    "path": "src/finance/__init__.py",
+    "source": "src/finance/__init__.py",
+    "sha256": "6e89143bcd2a3bef1ce03bf587d42cf5c4e9d58f97caaef0d1f13cbaa976b3c5",
+    "classification": "PROJECT_SOURCE_NO_EXTERNAL_DATA",
+    "license": "MIT_PROJECT_CONTRIBUTION_AUTHOR_CONFIRMED_STEP3B"
+  },
+  {
+    "path": "src/finance/schema.py",
+    "source": "src/finance/schema.py",
+    "sha256": "ec808d93a56d691b4e047c569c591bf0352f1d19b344e4d8955cc94df99d6d51",
+    "classification": "PROJECT_SOURCE_NO_EXTERNAL_DATA",
+    "license": "MIT_PROJECT_CONTRIBUTION_AUTHOR_CONFIRMED_STEP3B"
+  },
+  {
+    "path": "src/finance/calculations.py",
+    "source": "src/finance/calculations.py",
+    "sha256": "c38bf01692aa71462ab2eab6db08a67e7a78edd4bc9eae31b9d9ad06ab6cdcd6",
+    "classification": "PROJECT_SOURCE_NO_EXTERNAL_DATA",
+    "license": "MIT_PROJECT_CONTRIBUTION_AUTHOR_CONFIRMED_STEP3B"
+  },
+  {
+    "path": "src/finance/engine.py",
+    "source": "src/finance/engine.py",
+    "sha256": "73a5fea11cdd621c424fb51014c193fd8b2713b4c5336ef51d53ca2488e88b28",
+    "classification": "PROJECT_SOURCE_NO_EXTERNAL_DATA",
+    "license": "MIT_PROJECT_CONTRIBUTION_AUTHOR_CONFIRMED_STEP3B"
+  },
+  {
+    "path": "src/finance/taxes.py",
+    "source": "src/finance/taxes.py",
+    "sha256": "defdf158138d16a66ad25ffcf39dc5502dbd54d02f6e13b9498dfa21d2c53dfd",
+    "classification": "PROJECT_SOURCE_NO_EXTERNAL_DATA",
+    "license": "MIT_PROJECT_CONTRIBUTION_AUTHOR_CONFIRMED_STEP3B"
+  },
+  {
+    "path": "src/finance/demo.py",
+    "source": "src/finance/demo.py",
+    "sha256": "a1bfaf5becece7c525beafab1f7497433f78acac9bce9de41c0302f4ae94a920",
+    "classification": "PROJECT_SOURCE_NO_EXTERNAL_DATA",
+    "license": "MIT_PROJECT_CONTRIBUTION_AUTHOR_CONFIRMED_STEP3B"
+  },
+  {
+    "path": "src/finance/sensitivity.py",
+    "source": "src/finance/sensitivity.py",
+    "sha256": "f401b09b32ba132412184eb69b5829608b92f91bae0581510477331ba3412944",
+    "classification": "PROJECT_SOURCE_NO_EXTERNAL_DATA",
+    "license": "MIT_PROJECT_CONTRIBUTION_AUTHOR_CONFIRMED_STEP3B"
+  },
+  {
+    "path": "src/finance/break_even.py",
+    "source": "src/finance/break_even.py",
+    "sha256": "14364a21e2036859a8589bfc22f0372d8fc8ec4f343c62c7b60f98b1a2c336c3",
+    "classification": "PROJECT_SOURCE_NO_EXTERNAL_DATA",
+    "license": "MIT_PROJECT_CONTRIBUTION_AUTHOR_CONFIRMED_STEP3B"
+  },
+  {
+    "path": "src/finance/decomposition.py",
+    "source": "src/finance/decomposition.py",
+    "sha256": "704f2edd121634d84ab4ee5b94d8fdfa83090287f5a926e3825bbbfe78884cad",
+    "classification": "PROJECT_SOURCE_NO_EXTERNAL_DATA",
+    "license": "MIT_PROJECT_CONTRIBUTION_AUTHOR_CONFIRMED_STEP3B"
+  },
+  {
+    "path": "src/scenarios/__init__.py",
+    "source": "src/scenarios/__init__.py",
+    "sha256": "0fcc9af214e803d15d39a7965d7f2843a2c46a76eaec39ae547a408b836c6307",
+    "classification": "PROJECT_SOURCE_NO_EXTERNAL_DATA",
+    "license": "MIT_PROJECT_CONTRIBUTION_AUTHOR_CONFIRMED_STEP3B"
+  },
+  {
+    "path": "src/scenarios/intelligence.py",
+    "source": "src/scenarios/intelligence.py",
+    "sha256": "d90b81a52399c95e1aaee7d600ee539e4c57e729166622a1244e488f6b56a5b7",
+    "classification": "PROJECT_SOURCE_NO_EXTERNAL_DATA",
+    "license": "MIT_PROJECT_CONTRIBUTION_AUTHOR_CONFIRMED_STEP3B"
+  },
+  {
+    "path": "src/scenarios/property_finance.py",
+    "source": "src/scenarios/property_finance.py",
+    "sha256": "b760ef18f6f0b36ffd910a91c752c2f3f152272392022baab3378747103f8829",
+    "classification": "PROJECT_SOURCE_NO_EXTERNAL_DATA",
+    "license": "MIT_PROJECT_CONTRIBUTION_AUTHOR_CONFIRMED_STEP3B"
+  }
+]

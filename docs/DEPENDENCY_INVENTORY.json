@@ -1,0 +1,619 @@
+[
+  {
+    "name": "altair",
+    "version": "6.3.0",
+    "declared_license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "project_urls": [
+      "Documentation, https://altair-viz.github.io",
+      "Source, https://github.com/vega/altair"
+    ],
+    "license_files": [
+      "docs/licenses/altair/licenses/LICENSE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "anyio",
+    "version": "4.15.1",
+    "declared_license_expression": "MIT",
+    "license_classifiers": [],
+    "project_urls": [
+      "Documentation, https://anyio.readthedocs.io/en/latest/",
+      "Changelog, https://anyio.readthedocs.io/en/stable/versionhistory.html",
+      "Source code, https://github.com/agronholm/anyio",
+      "Issue tracker, https://github.com/agronholm/anyio/issues"
+    ],
+    "license_files": [
+      "docs/licenses/anyio/licenses/LICENSE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "attrs",
+    "version": "26.1.0",
+    "declared_license_expression": "MIT",
+    "license_classifiers": [],
+    "project_urls": [
+      "Documentation, https://www.attrs.org/",
+      "Changelog, https://www.attrs.org/en/stable/changelog.html",
+      "GitHub, https://github.com/python-attrs/attrs",
+      "Funding, https://github.com/sponsors/hynek",
+      "Tidelift, https://tidelift.com/subscription/pkg/pypi-attrs?utm_source=pypi-attrs&utm_medium=pypi"
+    ],
+    "license_files": [
+      "docs/licenses/attrs/licenses/LICENSE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "certifi",
+    "version": "2026.10.23",
+    "declared_license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+    ],
+    "project_urls": [
+      "Source, https://github.com/certifi/python-certifi"
+    ],
+    "license_files": [
+      "docs/licenses/certifi/licenses/LICENSE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.5.2",
+    "declared_license_expression": null,
+    "license_classifiers": [],
+    "project_urls": [
+      "Changelog, https://github.com/jawah/charset_normalizer/blob/master/CHANGELOG.md",
+      "Documentation, https://charset-normalizer.readthedocs.io/",
+      "Code, https://github.com/jawah/charset_normalizer",
+      "Issue tracker, https://github.com/jawah/charset_normalizer/issues"
+    ],
+    "license_files": [
+      "docs/licenses/charset-normalizer/licenses/LICENSE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "click",
+    "version": "8.5.0",
+    "declared_license_expression": "BSD-3-Clause",
+    "license_classifiers": [],
+    "project_urls": [
+      "Changes, https://click.palletsprojects.com/page/changes/",
+      "Chat, https://discord.gg/pallets",
+      "Documentation, https://click.palletsprojects.com/",
+      "Donate, https://palletsprojects.com/donate",
+      "Source, https://github.com/pallets/click/"
+    ],
+    "license_files": [
+      "docs/licenses/click/licenses/LICENSE.txt"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "declared_license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [],
+    "license_files": [
+      "docs/licenses/h11/licenses/LICENSE.txt"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "declared_license_expression": "BSD-3-Clause",
+    "license_classifiers": [],
+    "project_urls": [
+      "Changelog, https://github.com/kjd/idna/blob/master/HISTORY.md",
+      "Issue tracker, https://github.com/kjd/idna/issues",
+      "Source, https://github.com/kjd/idna"
+    ],
+    "license_files": [
+      "docs/licenses/idna/licenses/LICENSE.md"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "itsdangerous",
+    "version": "2.2.0",
+    "declared_license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "project_urls": [
+      "Changes, https://itsdangerous.palletsprojects.com/changes/",
+      "Chat, https://discord.gg/pallets",
+      "Documentation, https://itsdangerous.palletsprojects.com/",
+      "Donate, https://palletsprojects.com/donate",
+      "Source, https://github.com/pallets/itsdangerous/"
+    ],
+    "license_files": [
+      "docs/licenses/itsdangerous/LICENSE.txt"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "Jinja2",
+    "version": "3.1.6",
+    "declared_license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "project_urls": [
+      "Changes, https://jinja.palletsprojects.com/changes/",
+      "Chat, https://discord.gg/pallets",
+      "Documentation, https://jinja.palletsprojects.com/",
+      "Donate, https://palletsprojects.com/donate",
+      "Source, https://github.com/pallets/jinja/"
+    ],
+    "license_files": [
+      "docs/licenses/Jinja2/licenses/LICENSE.txt"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "jsonschema",
+    "version": "4.26.0",
+    "declared_license_expression": "MIT",
+    "license_classifiers": [],
+    "project_urls": [
+      "Homepage, https://github.com/python-jsonschema/jsonschema",
+      "Documentation, https://python-jsonschema.readthedocs.io/",
+      "Issues, https://github.com/python-jsonschema/jsonschema/issues/",
+      "Funding, https://github.com/sponsors/Julian",
+      "Tidelift, https://tidelift.com/subscription/pkg/pypi-jsonschema?utm_source=pypi-jsonschema&utm_medium=referral&utm_campaign=pypi-link",
+      "Changelog, https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst",
+      "Source, https://github.com/python-jsonschema/jsonschema"
+    ],
+    "license_files": [
+      "docs/licenses/jsonschema/licenses/COPYING"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "jsonschema-specifications",
+    "version": "2025.9.1",
+    "declared_license_expression": "MIT",
+    "license_classifiers": [],
+    "project_urls": [
+      "Documentation, https://jsonschema-specifications.readthedocs.io/",
+      "Homepage, https://github.com/python-jsonschema/jsonschema-specifications",
+      "Issues, https://github.com/python-jsonschema/jsonschema-specifications/issues/",
+      "Funding, https://github.com/sponsors/Julian",
+      "Tidelift, https://tidelift.com/subscription/pkg/pypi-jsonschema-specifications?utm_source=pypi-jsonschema-specifications&utm_medium=referral&utm_campaign=pypi-link",
+      "Source, https://github.com/python-jsonschema/jsonschema-specifications"
+    ],
+    "license_files": [
+      "docs/licenses/jsonschema-specifications/licenses/COPYING"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "MarkupSafe",
+    "version": "3.0.4",
+    "declared_license_expression": "BSD-3-Clause",
+    "license_classifiers": [],
+    "project_urls": [
+      "Donate, https://palletsprojects.com/donate",
+      "Documentation, https://markupsafe.palletsprojects.com/",
+      "Changes, https://markupsafe.palletsprojects.com/page/changes/",
+      "Source, https://github.com/pallets/markupsafe/",
+      "Chat, https://discord.gg/pallets"
+    ],
+    "license_files": [
+      "docs/licenses/MarkupSafe/licenses/LICENSE.txt"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "narwhals",
+    "version": "2.28.0",
+    "declared_license_expression": "MIT",
+    "license_classifiers": [],
+    "project_urls": [
+      "Homepage, https://github.com/narwhals-dev/narwhals",
+      "Documentation, https://narwhals-dev.github.io/narwhals/",
+      "Repository, https://github.com/narwhals-dev/narwhals",
+      "Bug Tracker, https://github.com/narwhals-dev/narwhals/issues"
+    ],
+    "license_files": [
+      "docs/licenses/narwhals/licenses/LICENSE.md"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "numpy",
+    "version": "2.4.6",
+    "declared_license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "license_classifiers": [],
+    "project_urls": [
+      "homepage, https://numpy.org",
+      "documentation, https://numpy.org/doc/",
+      "source, https://github.com/numpy/numpy",
+      "download, https://pypi.org/project/numpy/#files",
+      "tracker, https://github.com/numpy/numpy/issues",
+      "release notes, https://numpy.org/doc/stable/release"
+    ],
+    "license_files": [
+      "docs/licenses/numpy/licenses/LICENSE.txt",
+      "docs/licenses/numpy/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "docs/licenses/numpy/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "docs/licenses/numpy/licenses/numpy/_core/src/highway/LICENSE",
+      "docs/licenses/numpy/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "docs/licenses/numpy/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "docs/licenses/numpy/licenses/numpy/_core/src/umath/svml/LICENSE",
+      "docs/licenses/numpy/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "docs/licenses/numpy/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "docs/licenses/numpy/licenses/numpy/ma/LICENSE",
+      "docs/licenses/numpy/licenses/numpy/random/LICENSE.md",
+      "docs/licenses/numpy/licenses/numpy/random/src/distributions/LICENSE.md",
+      "docs/licenses/numpy/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "docs/licenses/numpy/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "docs/licenses/numpy/licenses/numpy/random/src/philox/LICENSE.md",
+      "docs/licenses/numpy/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "docs/licenses/numpy/licenses/numpy/random/src/splitmix64/LICENSE.md"
+    ],
+    "direct": true,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "declared_license_expression": "Apache-2.0 OR BSD-2-Clause",
+    "license_classifiers": [],
+    "project_urls": [
+      "Documentation, https://packaging.pypa.io/",
+      "Source, https://github.com/pypa/packaging"
+    ],
+    "license_files": [
+      "docs/licenses/packaging/licenses/LICENSE",
+      "docs/licenses/packaging/licenses/LICENSE.APACHE",
+      "docs/licenses/packaging/licenses/LICENSE.BSD"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "pandas",
+    "version": "3.0.3",
+    "declared_license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "project_urls": [
+      "homepage, https://pandas.pydata.org",
+      "documentation, https://pandas.pydata.org/docs/",
+      "repository, https://github.com/pandas-dev/pandas"
+    ],
+    "license_files": [
+      "docs/licenses/pandas/LICENSE"
+    ],
+    "direct": true,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "pillow",
+    "version": "13.0.0",
+    "declared_license_expression": "MIT-CMU",
+    "license_classifiers": [],
+    "project_urls": [
+      "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+      "Changelog, https://github.com/python-pillow/Pillow/releases",
+      "Documentation, https://pillow.readthedocs.io",
+      "Funding, https://tidelift.com/lifter/search/pypi/pillow",
+      "Homepage, https://python-pillow.org",
+      "Mastodon, https://fosstodon.org/@pillow",
+      "Security, https://pillow.readthedocs.io/en/stable/handbook/security.html",
+      "Source, https://github.com/python-pillow/Pillow"
+    ],
+    "license_files": [
+      "docs/licenses/pillow/licenses/LICENSE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "protobuf",
+    "version": "7.36.2",
+    "declared_license_expression": null,
+    "license_classifiers": [],
+    "project_urls": [],
+    "license_files": [
+      "docs/licenses/protobuf/LICENSE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "pyarrow",
+    "version": "26.0.0",
+    "declared_license_expression": "Apache-2.0",
+    "license_classifiers": [],
+    "project_urls": [
+      "Homepage, https://arrow.apache.org/",
+      "Documentation, https://arrow.apache.org/docs/python",
+      "Repository, https://github.com/apache/arrow",
+      "Issues, https://github.com/apache/arrow/issues"
+    ],
+    "license_files": [
+      "docs/licenses/pyarrow/licenses/LICENSE.txt",
+      "docs/licenses/pyarrow/licenses/NOTICE.txt"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "pydeck",
+    "version": "0.9.3",
+    "declared_license_expression": null,
+    "license_classifiers": [],
+    "project_urls": [],
+    "license_files": [
+      "docs/licenses/pydeck/licenses/LICENSE.txt"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "python-dateutil",
+    "version": "3.0.0",
+    "declared_license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License",
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "project_urls": [
+      "Documentation, https://dateutil.readthedocs.io/en/stable/",
+      "Source, https://github.com/dateutil/dateutil"
+    ],
+    "license_files": [
+      "docs/licenses/python-dateutil/licenses/LICENSE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "python-multipart",
+    "version": "0.0.32",
+    "declared_license_expression": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/Kludex/python-multipart",
+      "Documentation, https://kludex.github.io/python-multipart/",
+      "Changelog, https://github.com/Kludex/python-multipart/blob/master/CHANGELOG.md",
+      "Source, https://github.com/Kludex/python-multipart"
+    ],
+    "license_files": [
+      "docs/licenses/python-multipart/licenses/LICENSE.txt"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "referencing",
+    "version": "0.37.0",
+    "declared_license_expression": "MIT",
+    "license_classifiers": [],
+    "project_urls": [
+      "Documentation, https://referencing.readthedocs.io/",
+      "Homepage, https://github.com/python-jsonschema/referencing",
+      "Issues, https://github.com/python-jsonschema/referencing/issues/",
+      "Funding, https://github.com/sponsors/Julian",
+      "Tidelift, https://tidelift.com/subscription/pkg/pypi-referencing?utm_source=pypi-referencing&utm_medium=referral&utm_campaign=pypi-link",
+      "Changelog, https://referencing.readthedocs.io/en/stable/changes/",
+      "Source, https://github.com/python-jsonschema/referencing"
+    ],
+    "license_files": [
+      "docs/licenses/referencing/licenses/COPYING"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "requests",
+    "version": "2.34.2",
+    "declared_license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "project_urls": [
+      "Documentation, https://requests.readthedocs.io",
+      "Source, https://github.com/psf/requests"
+    ],
+    "license_files": [
+      "docs/licenses/requests/licenses/LICENSE",
+      "docs/licenses/requests/licenses/NOTICE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "rpds-py",
+    "version": "2026.9.1",
+    "declared_license_expression": "MIT",
+    "license_classifiers": [],
+    "project_urls": [
+      "Documentation, https://rpds.readthedocs.io/",
+      "Funding, https://github.com/sponsors/Julian",
+      "Homepage, https://github.com/crate-py/rpds",
+      "Issues, https://github.com/crate-py/rpds/issues/",
+      "Source, https://github.com/crate-py/rpds",
+      "Tidelift, https://tidelift.com/subscription/pkg/pypi-rpds-py?utm_source=pypi-rpds-py&utm_medium=referral&utm_campaign=pypi-link",
+      "Upstream, https://github.com/orium/rpds"
+    ],
+    "license_files": [
+      "docs/licenses/rpds-py/licenses/LICENSE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "declared_license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [],
+    "license_files": [
+      "docs/licenses/six/LICENSE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "starlette",
+    "version": "1.10.0",
+    "declared_license_expression": "BSD-3-Clause",
+    "license_classifiers": [],
+    "project_urls": [
+      "Homepage, https://github.com/Kludex/starlette",
+      "Documentation, https://starlette.dev/",
+      "Changelog, https://starlette.dev/release-notes/",
+      "Funding, https://github.com/sponsors/Kludex",
+      "Source, https://github.com/Kludex/starlette"
+    ],
+    "license_files": [
+      "docs/licenses/starlette/licenses/LICENSE.md"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "streamlit",
+    "version": "1.66.1",
+    "declared_license_expression": "Apache-2.0",
+    "license_classifiers": [],
+    "project_urls": [
+      "Homepage, https://streamlit.io",
+      "Documentation, https://docs.streamlit.io/",
+      "Source Code, https://github.com/streamlit/streamlit",
+      "Bug Tracker, https://github.com/streamlit/streamlit/issues",
+      "Release Notes, https://docs.streamlit.io/develop/quick-reference/changelog",
+      "Community, https://discuss.streamlit.io/"
+    ],
+    "license_files": [
+      "docs/licenses/streamlit/LICENSE"
+    ],
+    "direct": true,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion",
+    "versioned_license_source": "https://raw.githubusercontent.com/streamlit/streamlit/1.66.1/LICENSE",
+    "checked_date": "2026-10-29"
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "declared_license_expression": "PSF-2.0",
+    "license_classifiers": [],
+    "project_urls": [
+      "Bug Tracker, https://github.com/python/typing_extensions/issues",
+      "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+      "Documentation, https://typing-extensions.readthedocs.io/",
+      "Home, https://github.com/python/typing_extensions",
+      "Q & A, https://github.com/python/typing/discussions",
+      "Repository, https://github.com/python/typing_extensions"
+    ],
+    "license_files": [
+      "docs/licenses/typing_extensions/licenses/LICENSE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "tzdata",
+    "version": "2026.6",
+    "declared_license_expression": null,
+    "license_classifiers": [],
+    "project_urls": [
+      "Bug Reports, https://github.com/python/tzdata/issues",
+      "Source, https://github.com/python/tzdata",
+      "Documentation, https://tzdata.python.org"
+    ],
+    "license_files": [
+      "docs/licenses/tzdata/licenses/LICENSE",
+      "docs/licenses/tzdata/licenses/licenses/LICENSE_APACHE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "urllib3",
+    "version": "2.8.0",
+    "declared_license_expression": "MIT",
+    "license_classifiers": [],
+    "project_urls": [
+      "Changelog, https://github.com/urllib3/urllib3/blob/main/CHANGES.rst",
+      "Documentation, https://urllib3.readthedocs.io",
+      "Code, https://github.com/urllib3/urllib3",
+      "Issue tracker, https://github.com/urllib3/urllib3/issues",
+      "Security policy, https://urllib3.readthedocs.io/en/latest/security.html"
+    ],
+    "license_files": [
+      "docs/licenses/urllib3/licenses/LICENSE.txt"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "uvicorn",
+    "version": "0.54.0",
+    "declared_license_expression": "BSD-3-Clause",
+    "license_classifiers": [],
+    "project_urls": [
+      "Changelog, https://uvicorn.dev/release-notes",
+      "Funding, https://github.com/sponsors/Kludex",
+      "Homepage, https://uvicorn.dev/",
+      "Source, https://github.com/Kludex/uvicorn"
+    ],
+    "license_files": [
+      "docs/licenses/uvicorn/licenses/LICENSE.md"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  },
+  {
+    "name": "websockets",
+    "version": "17.3",
+    "declared_license_expression": "BSD-3-Clause",
+    "license_classifiers": [],
+    "project_urls": [
+      "Homepage, https://github.com/python-websockets/websockets",
+      "Changelog, https://websockets.readthedocs.io/en/stable/project/changelog.html",
+      "Documentation, https://websockets.readthedocs.io/",
+      "Funding, https://tidelift.com/subscription/pkg/pypi-websockets?utm_source=pypi-websockets&utm_medium=referral&utm_campaign=readme",
+      "Tracker, https://github.com/python-websockets/websockets/issues"
+    ],
+    "license_files": [
+      "docs/licenses/websockets/licenses/LICENSE"
+    ],
+    "direct": false,
+    "source": "Installed wheel metadata and included notices; not a legal compatibility opinion"
+  }
+]

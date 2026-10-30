@@ -1,0 +1,589 @@
+{
+  "scope": "Exact source candidate file allowlist; excludes .git and ignored local files. Licensing scope is defined separately in docs/PROVENANCE_RIGHTS_MATRIX.json.",
+  "self_hash_rule": "This manifest lists itself with null digest and size; all other files have hashes. Self presence and exact set are verified.",
+  "file_count": 97,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "8ace913aacf7fd1b198988218b60d35bdedfa81162645cb06bf0cb521ce4c9f8",
+      "size_bytes": 206,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "sha256": "990ec9a36b174e40457759275b82c6a76b9b9495d57461736a89227c555d9bd6",
+      "size_bytes": 275,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "EXCLUDED_FILES.json",
+      "sha256": "aa3039365e2401eef7e77dfd6a94f5f74c335f157c801df18ffc8fd8e1f80641",
+      "size_bytes": 51274,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "INCLUDED_FILES.json",
+      "sha256": null,
+      "size_bytes": null,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3ffd23f68239480272bdbe9951aca9c547be1836b65c624a175d6f48511a4869",
+      "size_bytes": 1075,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "README.md",
+      "sha256": "4dec3f7d7a079ebfd289d985d7fb773025e5c057cbff54bcee7c63648f8d12a5",
+      "size_bytes": 7169,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "15289468a578cccd91ba50e8414fada33dbbb5597907e95b735790194db10663",
+      "size_bytes": 2429,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "app/streamlit_app.py",
+      "sha256": "72b687f13542505be7117b140bd51e4ce9267d54173396f8c42d9ef2d23472ff",
+      "size_bytes": 7527,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/AUTHOR_RIGHTS_DECLARATION.md",
+      "sha256": "b38de8950becf83d8aefa31d820e1fd58bac04d3318b464b3ce03050490a7d91",
+      "size_bytes": 1939,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/DATA_POLICY.md",
+      "sha256": "68cfbf7d1625307bd709dc6d30fc37f319cba8d1f15a978d677c1525a7bfb8ab",
+      "size_bytes": 1962,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/DEPENDENCY_INVENTORY.json",
+      "sha256": "6a27f5f2ccb003819184b40c1e97028225c83d7c8a647565b92a3022096f6ef1",
+      "size_bytes": 23095,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/FINAL_REVIEW_CHECKLIST.md",
+      "sha256": "016df5d120f89bf1f5002febf15309eb6d146f46b7f307cf87387d93f9885d9f",
+      "size_bytes": 885,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/LICENSE_REVIEW.md",
+      "sha256": "e64e8fec9143dfd33f8d7fe380dd3c75336b4d9d3837d733fce0e8ba057b7b6b",
+      "size_bytes": 3175,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/METHODS.md",
+      "sha256": "7b859c65ed8e55269a0dd958f76a219091bf632bd7684ef0c5dd3c272bbebeee",
+      "size_bytes": 3016,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/ORIGIN_MANIFEST.json",
+      "sha256": "3522c79a269e6297ebfec99659c2f4a46d8be0144b485c731da672eb8f5621d2",
+      "size_bytes": 3573,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/PROVENANCE_RIGHTS_MATRIX.json",
+      "sha256": "c5946a07c052cff0d17f60bf03286a746f9e468bd386a4164928d8904bb66ecc",
+      "size_bytes": 104112,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/SYNTHETIC_PROVENANCE.json",
+      "sha256": "211c00c68b1e62b78b2871160114bac4baab6a9db96df3b8576b7209baa3c391",
+      "size_bytes": 306,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/TEST_SCOPE.md",
+      "sha256": "57f802fe8593fef14bae18e02d73383b9468361329c8ed1677ec647e77f8ac96",
+      "size_bytes": 451,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "55a62dce1fb94763b947cbf62c9ac87fee7a78ca027b0a7fc86ea0798c58a908",
+      "size_bytes": 9477,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/licenses/Jinja2/licenses/LICENSE.txt",
+      "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
+      "size_bytes": 1475,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/MarkupSafe/licenses/LICENSE.txt",
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+      "size_bytes": 1475,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/altair/licenses/LICENSE",
+      "sha256": "648332da6631555f71f18305b96e9a2c409e73d73613b6c96587cdc0a449e054",
+      "size_bytes": 1497,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/anyio/licenses/LICENSE",
+      "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+      "size_bytes": 1081,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/attrs/licenses/LICENSE",
+      "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+      "size_bytes": 1109,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/certifi/licenses/LICENSE",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "size_bytes": 989,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/charset-normalizer/licenses/LICENSE",
+      "sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887",
+      "size_bytes": 1071,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/click/licenses/LICENSE.txt",
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+      "size_bytes": 1475,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/h11/licenses/LICENSE.txt",
+      "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+      "size_bytes": 1124,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/idna/licenses/LICENSE.md",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "size_bytes": 1541,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/itsdangerous/LICENSE.txt",
+      "sha256": "63af09891b6be8ad1a4252ed43af0f4efba7fc948e228367bed7f3c5ae0b09d7",
+      "size_bytes": 1475,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/jsonschema-specifications/licenses/COPYING",
+      "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+      "size_bytes": 1057,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/jsonschema/licenses/COPYING",
+      "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439",
+      "size_bytes": 1057,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/narwhals/licenses/LICENSE.md",
+      "sha256": "811445f30147b8f0c9d444c9025fd528f9532c54b7b83f6e2368473dc91cfdf0",
+      "size_bytes": 1082,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/LICENSE.txt",
+      "sha256": "649a589ab31076e79e9ce62ba24eae9959598124176640dbc95f87bd10f34fcf",
+      "size_bytes": 46826,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+      "size_bytes": 1018,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "sha256": "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98",
+      "size_bytes": 690,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/_core/src/highway/LICENSE",
+      "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af",
+      "size_bytes": 20785,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "sha256": "f7b14309e5f54e5022b26448eefd419988ada2aec01d3c1162d84a0ea8f21f2c",
+      "size_bytes": 1414,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "sha256": "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910",
+      "size_bytes": 1514,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/_core/src/umath/svml/LICENSE",
+      "sha256": "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9",
+      "size_bytes": 1543,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056",
+      "size_bytes": 1498,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "sha256": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55",
+      "size_bytes": 2266,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/ma/LICENSE",
+      "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+      "size_bytes": 1593,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/random/LICENSE.md",
+      "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+      "size_bytes": 3511,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/random/src/distributions/LICENSE.md",
+      "sha256": "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face",
+      "size_bytes": 2745,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "sha256": "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156",
+      "size_bytes": 2926,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "sha256": "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918",
+      "size_bytes": 1154,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/random/src/philox/LICENSE.md",
+      "sha256": "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800",
+      "size_bytes": 1509,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "sha256": "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f",
+      "size_bytes": 1226,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/numpy/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9",
+      "size_bytes": 332,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/packaging/licenses/LICENSE",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "size_bytes": 197,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/packaging/licenses/LICENSE.APACHE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "size_bytes": 10174,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/packaging/licenses/LICENSE.BSD",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "size_bytes": 1344,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/pandas/LICENSE",
+      "sha256": "5c1052e921e62d36ccda50a61585e9c0444b80c62f39b57c4f3f0d5fb62f5071",
+      "size_bytes": 52127,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/pillow/licenses/LICENSE",
+      "sha256": "dda12a98c1979cf3d94df1cff45d27a4cb3f04a60c76f76902ac54cac03ec0ce",
+      "size_bytes": 70307,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/protobuf/LICENSE",
+      "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d",
+      "size_bytes": 1732,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/pyarrow/licenses/LICENSE.txt",
+      "sha256": "cd03925a27219d326d622609fbcae6567279af8b8885c33d5969a9e4ef5d7525",
+      "size_bytes": 110383,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/pyarrow/licenses/NOTICE.txt",
+      "sha256": "afd895d61a00101f6d5a41cf518c83865d815e8109e956f512a0ce4ea9738c06",
+      "size_bytes": 2916,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/pydeck/licenses/LICENSE.txt",
+      "sha256": "fa22bc5599b857a628e0757d4a95024f4c392aa2a4321053d61f34ce505d6d90",
+      "size_bytes": 621,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/python-dateutil/licenses/LICENSE",
+      "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e",
+      "size_bytes": 2889,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/python-multipart/licenses/LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size_bytes": 11358,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/referencing/licenses/COPYING",
+      "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+      "size_bytes": 1057,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/requests/licenses/LICENSE",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "size_bytes": 10142,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/requests/licenses/NOTICE",
+      "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc",
+      "size_bytes": 38,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/rpds-py/licenses/LICENSE",
+      "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909",
+      "size_bytes": 1057,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/six/LICENSE",
+      "sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0",
+      "size_bytes": 1066,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/starlette/licenses/LICENSE.md",
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+      "size_bytes": 1518,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/streamlit/LICENSE",
+      "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
+      "size_bytes": 11358,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/typing_extensions/licenses/LICENSE",
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "size_bytes": 13936,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/tzdata/licenses/LICENSE",
+      "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46",
+      "size_bytes": 625,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/tzdata/licenses/licenses/LICENSE_APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "size_bytes": 11357,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/urllib3/licenses/LICENSE.txt",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+      "size_bytes": 1093,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/uvicorn/licenses/LICENSE.md",
+      "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+      "size_bytes": 1526,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/licenses/websockets/licenses/LICENSE",
+      "sha256": "3d6a0c050d8bec52fabad502e45fb25bd02bcadbd70dea34d447b6a0ff4e6da8",
+      "size_bytes": 1514,
+      "classification": "UPSTREAM_LEGAL_NOTICE"
+    },
+    {
+      "path": "docs/screenshots/financial.png",
+      "sha256": "111fd52c3696abe23c32d03bbea394568b5c68ba55441ed2e34c4264cf3d74f2",
+      "size_bytes": 368858,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/screenshots/market.png",
+      "sha256": "d337042cd84ec048b4a12216a12f2cc12a66da6cb1b0fac9e2461e0648cf661f",
+      "size_bytes": 313166,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "sha256": "9ae493a471c1b6781e5ebb872327068041ab2eceef62cf60536cb81300b65d64",
+      "size_bytes": 593,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "a2c218f21f04cfe412d28c68a9dab16fd4dda192b718ddbfe184b16cd3368111",
+      "size_bytes": 126,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "sha256": "380bd07094133a84815ca5baa41eed91479d728978d603e4b06c7e365c51dcaf",
+      "size_bytes": 3487,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/finance/__init__.py",
+      "sha256": "6e89143bcd2a3bef1ce03bf587d42cf5c4e9d58f97caaef0d1f13cbaa976b3c5",
+      "size_bytes": 90,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/finance/break_even.py",
+      "sha256": "14364a21e2036859a8589bfc22f0372d8fc8ec4f343c62c7b60f98b1a2c336c3",
+      "size_bytes": 9201,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/finance/calculations.py",
+      "sha256": "c38bf01692aa71462ab2eab6db08a67e7a78edd4bc9eae31b9d9ad06ab6cdcd6",
+      "size_bytes": 5252,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/finance/decomposition.py",
+      "sha256": "704f2edd121634d84ab4ee5b94d8fdfa83090287f5a926e3825bbbfe78884cad",
+      "size_bytes": 5879,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/finance/demo.py",
+      "sha256": "a1bfaf5becece7c525beafab1f7497433f78acac9bce9de41c0302f4ae94a920",
+      "size_bytes": 1939,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/finance/engine.py",
+      "sha256": "73a5fea11cdd621c424fb51014c193fd8b2713b4c5336ef51d53ca2488e88b28",
+      "size_bytes": 12407,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/finance/schema.py",
+      "sha256": "ec808d93a56d691b4e047c569c591bf0352f1d19b344e4d8955cc94df99d6d51",
+      "size_bytes": 10232,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/finance/sensitivity.py",
+      "sha256": "f401b09b32ba132412184eb69b5829608b92f91bae0581510477331ba3412944",
+      "size_bytes": 3871,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/finance/taxes.py",
+      "sha256": "defdf158138d16a66ad25ffcf39dc5502dbd54d02f6e13b9498dfa21d2c53dfd",
+      "size_bytes": 1991,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/public_demo.py",
+      "sha256": "bdaea38c9b4f9cbd275447f81b3f7a44fbbd201ae4e963623668f340ee7f9798",
+      "size_bytes": 7323,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/scenarios/__init__.py",
+      "sha256": "0fcc9af214e803d15d39a7965d7f2843a2c46a76eaec39ae547a408b836c6307",
+      "size_bytes": 77,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/scenarios/intelligence.py",
+      "sha256": "d90b81a52399c95e1aaee7d600ee539e4c57e729166622a1244e488f6b56a5b7",
+      "size_bytes": 6220,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "src/scenarios/property_finance.py",
+      "sha256": "b760ef18f6f0b36ffd910a91c752c2f3f152272392022baab3378747103f8829",
+      "size_bytes": 1844,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "tests/test_finance.py",
+      "sha256": "96ac22c6f4ee841b0df3df8d8662812f6d88a8c626b7bb5cbba17d9fd1d7abfe",
+      "size_bytes": 15062,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "tests/test_public_demo.py",
+      "sha256": "5a6eb75c4c9203c87c8796ebc30ea4f0587140e1a92558917519e74e8c528ab1",
+      "size_bytes": 5479,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    },
+    {
+      "path": "tests/test_ui.py",
+      "sha256": "a2a59601962fd9c4a9b15b75352cf5025e512b27a488803b33861e17fdc387fa",
+      "size_bytes": 2055,
+      "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
+    }
+  ]
+}
