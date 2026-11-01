@@ -22,12 +22,18 @@ with st.sidebar:
     st.header('Workspace')
     page=st.radio('Workflow',WORKFLOWS)
     label=st.selectbox('Fictional property',MARKETS)
+    current_value=st.number_input(
+        'Current market value (USD)',min_value=1.0,
+        value=float(case(MARKETS.index(label))[0].current_value),step=1000.0,format='%.2f',
+        key='current_value_'+label,
+        help='Use fictional demonstration values only. Kept in this local session; not saved or sent to external services.')
     horizon=st.select_slider('Financial horizon (years)',options=[1,3,5,10],value=5)
     appreciation=st.slider('Illustrative annual appreciation (%)',-5.,8.,2.5,.5)/100
     vacancy=st.slider('Illustrative rental vacancy (%)',0.,30.,6.,1.)/100
     tax_complete=st.checkbox('Use complete fictional tax assumptions',value=False)
     st.caption('Offline workflows. No login, Keychain, provider access or inference.')
-prop,assumptions,result=case(MARKETS.index(label),horizon,appreciation,vacancy,tax_complete)
+prop,assumptions,result=case(MARKETS.index(label),horizon,appreciation,vacancy,tax_complete,
+                             current_value=current_value)
 current_hash=fingerprint(result['assumptions'])
 if st.session_state.get('review_input_hash')!=current_hash:
     st.session_state.pop('review_packet',None)

@@ -6,6 +6,40 @@ from src.public_demo import *
 from src.finance.engine import compare
 
 class SyntheticEvidenceTests(unittest.TestCase):
+    def test_current_value_propagates_to_sale_and_hold_outputs(self):
+        p,a,base=case(current_value=650000.)
+        q,b,changed=case(current_value=750000.)
+        self.assertEqual(q.current_value,750000.)
+        self.assertEqual(q.loan,p.loan)
+        self.assertEqual(q.rental,p.rental)
+        self.assertEqual(q.tax,p.tax)
+        self.assertEqual(q.acquisition,p.acquisition)
+        # Same percentage sale costs and fixed fees: +100k * (1 - .05 - .015).
+        self.assertAlmostEqual(changed['current_sale']['pretax_proceeds']-base['current_sale']['pretax_proceeds'],93500.)
+        for old,new in zip(base['strategies'],changed['strategies']):
+            self.assertNotEqual(old['pretax']['npv'],new['pretax']['npv'])
+            self.assertNotEqual(old['terminal_wealth_before_tax'],new['terminal_wealth_before_tax'])
+            self.assertIsNone(new['after_tax'])
+            if new['strategy']!='sell':
+                self.assertAlmostEqual(new['terminal_property_value']-old['terminal_property_value'],100000*1.025**5)
+        self.assertNotEqual(fingerprint(base['assumptions']),fingerprint(changed['assumptions']))
+
+    def test_current_value_updates_tax_sensitivity_and_evidence(self):
+        p,a,base=case(tax_complete=True,current_value=650000.)
+        q,b,changed=case(tax_complete=True,current_value=750000.)
+        self.assertGreater(changed['current_sale_tax']['estimated_final_liability'],base['current_sale_tax']['estimated_final_liability'])
+        for old,new in zip(base['strategies'],changed['strategies']):
+            self.assertNotEqual(old['after_tax']['npv'],new['after_tax']['npv'])
+        self.assertNotEqual(sensitivity(p,a,5),sensitivity(q,b,5))
+        self.assertEqual(evidence('Financial grounding',q,b,changed,5)['rows'],financial_rows(changed))
+        self.assertEqual(review_packet(changed,'Hold',True)['input_sha256'],fingerprint(changed['assumptions']))
+
+    def test_current_value_validation_and_defaults(self):
+        for i,default in enumerate((650000.,360000.,240000.)):
+            self.assertEqual(case(i)[0].current_value,default)
+        for value in (0,-1,True,'750000',float('nan'),float('inf')):
+            with self.subTest(value=repr(value)),self.assertRaises(ValueError):case(current_value=value)
+
     def test_generator_shape(self):
         rows=synthetic_markets();self.assertEqual(len(rows),360)
         self.assertEqual({r['market'] for r in rows},set(MARKETS))
@@ -85,5 +119,5 @@ class SyntheticEvidenceTests(unittest.TestCase):
         self.assertNotIn('/Users/',json.dumps(packet))
     def test_core_needs_no_network(self):
         with patch('socket.socket',side_effect=AssertionError('NO_NETWORK')),patch('os.getenv',side_effect=AssertionError('NO_CREDENTIAL_LOOKUP')):
-            p,a,r=case();backtest();sensitivity(p,a,5)
+            p,a,r=case(current_value=750000.);backtest();sensitivity(p,a,5)
             for q in QUESTIONS:evidence(q,p,a,r,5)

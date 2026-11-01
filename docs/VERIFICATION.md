@@ -1,5 +1,16 @@
 # Final source candidate verification
 
+## Local property-value input restoration — 2026-11-01
+
+This local update supersedes the current-code test count and freeze claims below; the Step 3B details remain historical records. The old external freeze and future-push script no longer match this modified candidate. No commit, push, remote change or deployment was performed for this update.
+
+Root cause: the original local app/forms.py automatically rendered property.current_value via number_input, while the public UI reduced the controls to preset selection and read-only metrics, and case() had no override parameter. The shared sidebar now includes Current market value (USD), initialized from approved fictional defaults. A positive finite override replaces only current_value before deterministic compare(); unchanged loan, rent, acquisition and tax basis assumptions remain explicit. All financial workflows use the same result and input fingerprint, so changing value invalidates an earlier human review. Values are held in the local Streamlit session; the update adds no file/log/network persistence. Existing user-triggered synthetic result download remains available.
+
+Baseline: all existing 94 public tests passed before changes. Updated suite: **99 tests passed** (66 unchanged portable finance tests, 26 synthetic/demo tests, 7 UI tests). Five new tests cover exact sale-proceeds and terminal-value deltas, all three strategies, illustrative taxes, sensitivity/evidence, invalid input, editable displayed value, review invalidation and session/case isolation. The network/credential lookup guard also runs with an edited value. Browser verification changed fictional USD 650,000 to 750,000 and confirmed the metric and all three financial rows updated. Source financial engines, external observations and private data were not changed or imported. No dependency was added.
+
+The candidate still contains 97 files; INCLUDED_FILES.json was regenerated. The old pre-commit validator intentionally flags the existing initial commit/refs/origin, which were already present at preflight; its content/privacy scan has no findings. Git history was preserved. Current local test/scan/screenshot records are outside the package. Any future publication requires a new reviewed freeze and separate authorization.
+
+
 Review date: 2026-10-29. Step 3B decision: CONDITIONAL GO for a later first private push. The author explicitly approved the exact 40 contributions and MIT is now active for that scope. Separate commit/push authorization and destination privacy/empty-history verification remain required. No Git write or publication was performed.
 
 ## Exact release scope

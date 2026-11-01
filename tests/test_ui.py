@@ -4,6 +4,34 @@ from streamlit.testing.v1 import AppTest
 from src.public_demo import WORKFLOWS
 
 class PublicUITests(unittest.TestCase):
+    def test_edit_current_value_updates_financial_display(self):
+        app=self.app();app.sidebar.radio[0].set_value('Financial comparison').run()
+        field=app.number_input(key='current_value_Harbor')
+        self.assertEqual(field.label,'Current market value (USD)')
+        self.assertEqual(field.value,650000.)
+        before=app.dataframe[0].value.copy()
+        field.set_value(750000.).run()
+        self.assertFalse(app.exception)
+        self.assertEqual(app.metric[0].value,'$750,000')
+        self.assertTrue((before['Pre-tax NPV ($)']!=app.dataframe[0].value['Pre-tax NPV ($)']).all())
+        # All workflows share the edited assumption; returning does not reset it.
+        app.sidebar.radio[0].set_value('Scenario lab').run()
+        self.assertFalse(app.exception)
+        app.sidebar.radio[0].set_value('Financial comparison').run()
+        self.assertEqual(app.number_input(key='current_value_Harbor').value,750000.)
+
+    def test_value_edit_invalidates_review_and_sessions_are_isolated(self):
+        app=self.app();app.sidebar.radio[0].set_value('Human review').run()
+        app.selectbox(key='review_choice').select('Hold').run()
+        app.checkbox(key='review_confirm').check().run();app.button[0].click().run()
+        self.assertIn('review_packet',app.session_state)
+        app.number_input(key='current_value_Harbor').set_value(750000.).run()
+        self.assertEqual(len(app.success),0)
+        self.assertIsNone(app.selectbox(key='review_choice').value)
+        self.assertEqual(self.app().number_input(key='current_value_Harbor').value,650000.)
+        app.sidebar.selectbox[0].select('Cedar').run()
+        self.assertEqual(app.number_input(key='current_value_Cedar').value,360000.)
+
     def app(self):return AppTest.from_file(str(Path(__file__).resolve().parents[1]/'app/streamlit_app.py'),default_timeout=20).run()
     def test_all_workflows_render(self):
         app=self.app()

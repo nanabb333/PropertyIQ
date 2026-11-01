@@ -92,11 +92,16 @@ def scores(horizon=6):
     return result
 
 
-def case(case_index=0, horizon=5, appreciation=.025, vacancy=.06, tax_complete=False):
+def case(case_index=0, horizon=5, appreciation=.025, vacancy=.06, tax_complete=False,
+         current_value=None):
     if type(case_index) is not int or case_index not in (0,1,2): raise ValueError('Unknown fictional case')
     if horizon not in (1,3,5,10): raise ValueError('Unsupported financial horizon')
     if type(tax_complete) is not bool: raise ValueError('Explicit synthetic tax state required')
     prop,assumptions=demos()[case_index]
+    if current_value is not None:
+        if type(current_value) not in (int,float) or not math.isfinite(current_value) or current_value<=0:
+            raise ValueError('Current market value must be a positive finite number')
+        prop=replace(prop,current_value=current_value)
     prop=replace(prop,property_id='SYNTHETIC_'+MARKETS[case_index].upper(),
                  rental=replace(prop.rental,vacancy=vacancy))
     if not tax_complete:

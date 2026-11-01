@@ -13,7 +13,7 @@ A local, offline Streamlit portfolio demo connecting deterministic financial cal
 | Workflow | What it demonstrates |
 |---|---|
 | Market explorer | Three invented markets, 120 invented monthly observations each, with generator provenance |
-| Financial comparison | Hold/occupy, sell/hold cash and rent-out cash flows, financing, NPV and illustrative tax completeness |
+| Financial comparison | Editable fictional current market value; hold/occupy, sell/hold cash and rent-out cash flows, financing, NPV and illustrative tax completeness |
 | Scenario lab | Matched appreciation sensitivity with other assumptions held constant; no assigned probabilities |
 | Forecast lab | Three simple baselines, expanding-window rolling origins and 3/6/9/12-month horizons |
 | Evidence explorer | Six fixed, deterministic read-only queries; no model-generated arithmetic or free-form chat |
@@ -56,7 +56,7 @@ flowchart LR
     Review --> Export[User-triggered synthetic JSON download]
 ```
 
-No acquisition, database, OAuth, Keychain or provider transport code is imported by the public application. Review state stays in the browser's Streamlit session; the application does not create a reviewer database or attest a person's identity. Changing financial inputs clears an earlier demonstration choice.
+No acquisition, database, OAuth, Keychain or provider transport code is imported by the public application. Review state stays in the browser's Streamlit session; the application does not create a reviewer database or attest a person's identity. Changing financial inputs clears an earlier demonstration choice. Edit **Current market value (USD)** in the sidebar using fictional values; press Enter or leave the field to recalculate. The selected value feeds financial comparisons, sensitivity and evidence. It remains in the local session without automatic file storage, logging or external transmission. Rent, loan balance, acquisition history and tax basis remain separate assumptions.
 
 ![Synthetic financial comparison](docs/screenshots/financial.png)
 
