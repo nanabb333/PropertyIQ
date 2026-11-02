@@ -2,9 +2,11 @@
 
 ### Real estate analysis you can inspect — with entirely fictional data
 
-A local, offline Streamlit portfolio demo connecting deterministic financial calculations, scenario analysis, rolling-origin forecasting mechanics and human-controlled review.
+A local, offline Streamlit portfolio demo connecting property profiles, explicitly fictional location scenarios, deterministic financial calculations, rolling-origin forecasting mechanics and human-controlled review.
 
 **Public synthetic edition · no external datasets · no credentials · no LLM inference**
+
+**Desktop-first portfolio demonstration.** Mobile responsiveness has not been validated. Phone viewport QA is deferred; this release does not claim mobile compatibility or completed mobile QA. Use a desktop browser for the reviewed demonstration workflows.
 
 ![Synthetic market explorer](docs/screenshots/market.png)
 
@@ -18,6 +20,18 @@ A local, offline Streamlit portfolio demo connecting deterministic financial cal
 | Forecast lab | Three simple baselines, expanding-window rolling origins and 3/6/9/12-month horizons |
 | Evidence explorer | Six fixed, deterministic read-only queries; no model-generated arithmetic or free-form chat |
 | Human review | No preselected strategy; an explicit human choice creates a session-only synthetic review export |
+
+## Property Profile and synthetic scenarios (v1.2)
+
+Use the shared sidebar to enter a fictional five-digit ZIP, property type, standard/custom bed/bath layout, interior square feet, optional parking/year built, and independent financial assumptions. Current value, original purchase price, outstanding debt, monthly rent, HOA, annual property taxes, insurance and maintenance have separate controls. Mortgage rate/term and illustrative tax basis remain explicit. Purchase price and current value never infer or overwrite tax basis or debt. Maintenance excludes separately entered HOA/taxes/insurance; other template operating components are inspectable in the model-input evidence.
+
+ZIP is validated for **five ASCII digits only**, not postal assignment. No verified city/state lookup is included. Tokens `20008`, `19103` and `15213` select authored **synthetic fixtures**, not observations about those locations. All other tokens use `GENERIC_FALLBACK`. No geocoding, comparable sales, local valuation or ZIP-level market forecast is retrieved. Fictional case labels/CBSA compatibility IDs and index series are independent of the entered ZIP.
+
+Changing ZIP/type/layout/area updates the suggestion preview and review fingerprint, **not financial values**. Open **Synthetic suggestions — preview before applying**, review the four proposed rent/HOA/insurance/maintenance replacements, check the explicit replacement consent, then click **Apply synthetic suggestions**. Every applied field records its source, units, formula, version and profile fingerprint. Original application receipts survive later ZIP changes; manual overrides replace that field's source and remove its old receipt. Nothing is applied automatically and all financial controls remain editable.
+
+User inputs, synthetic defaults/applied fixtures, calculated outputs and unavailable market evidence are labeled separately. The displayed value per square foot is simply entered value divided by entered interior area, not an independently estimated market price. Parking/year built are descriptive. Multifamily is an aggregate illustrative property label, not a rent-roll or unit-level underwriting model. Monetary inputs are bounded at USD 1 billion; the versioned optional year range is 1600–2026.
+
+Profiles, source labels and edits stay in the local session across the six workflows. No profile inputs are written to disk/logs/analytics or sent to external services. The existing explicit download exports a synthetic review result, not raw ZIP/layout fields. Use fictional examples; do not enter an address or personal records. Any material profile/financial/source change invalidates prior human review. No automatic strategy recommendation or improved prediction-accuracy claim is made. See [fixture formulas and architecture](docs/METHODS.md).
 
 The public edition reuses a small allowlist of the project's financial and scenario source modules. It does **not** ship the private research warehouse, real observations, trained model artifacts, 16-tool research agent, prospective registry, OAuth adapters or experimental native credential helper.
 
@@ -46,7 +60,11 @@ Windows activation is `.venv\Scripts\activate`. `requirements.txt` declares dire
 
 ```mermaid
 flowchart LR
-    UI[Streamlit workspace] --> Synth[Deterministic synthetic generator]
+    UI[Streamlit workspace] --> Profile[Validated property profile]
+    Profile --> Preview[Fictional fixture preview]
+    Preview --> Apply[Explicit human application]
+    Apply --> Finance
+    UI --> Synth[Deterministic synthetic generator]
     UI --> Finance[Financial engine]
     UI --> Scenario[Matched assumption sensitivity]
     UI --> Forecast[Rolling-origin baseline experiment]
@@ -56,7 +74,7 @@ flowchart LR
     Review --> Export[User-triggered synthetic JSON download]
 ```
 
-No acquisition, database, OAuth, Keychain or provider transport code is imported by the public application. Review state stays in the browser's Streamlit session; the application does not create a reviewer database or attest a person's identity. Changing financial inputs clears an earlier demonstration choice. Edit **Current market value (USD)** in the sidebar using fictional values; press Enter or leave the field to recalculate. The selected value feeds financial comparisons, sensitivity and evidence. It remains in the local session without automatic file storage, logging or external transmission. Rent, loan balance, acquisition history and tax basis remain separate assumptions.
+No acquisition, database, OAuth, Keychain or provider transport code is imported by the public application. Review/profile state stays in the local Streamlit session (server memory, isolated by session); the application does not create a reviewer database or attest a person's identity. Changing financial inputs clears an earlier demonstration choice. Edit **Current market value (USD)** in the sidebar using fictional values; press Enter or leave the field to recalculate. The selected value feeds financial comparisons, sensitivity and evidence. It remains in the local session without automatic file storage, logging or external transmission. Rent, loan balance, acquisition history and tax basis remain separate assumptions.
 
 ![Synthetic financial comparison](docs/screenshots/financial.png)
 

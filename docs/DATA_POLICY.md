@@ -15,3 +15,7 @@ Official references checked during release review on 2026-10-29:
 Research download or analysis permission was not treated as permission to mirror raw data in GitHub or relicense it under MIT. The Zillow aggregate-display exception was not assumed to apply to this release. Relevant attribution would need to accompany a separately approved real-data display, but it is not a substitute for permission. No such display is shipped here.
 
 Only user-triggered synthetic review JSON can be downloaded from the application. Do not load personal records or credentials; no upload, free-form credential entry, OAuth or provider connection exists. The Streamlit server binds loopback and disables its usage telemetry. Browser framework infrastructure is not a claim that all operating-system or browser background networking is absent.
+
+## v1.2 ZIP-token fixture boundary
+
+The three ZIP strings used as scenario keys are identifiers, not a copied geographic mapping or market dataset. All scenario constants and type/layout/area factors are authored fictional assumptions, documented in METHODS.md. Five-digit format validation does not establish postal assignment. No city/state labels, real ZIP rents, sales comparables, valuations or observed trends are shipped. Unmatched tokens use an explicit generic fallback. User profile edits remain local session inputs and are never used to calibrate the fictional index generator. External v1.2 tests, preview logs, screenshots and the new freeze manifest remain outside the release package.

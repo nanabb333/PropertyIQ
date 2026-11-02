@@ -35,8 +35,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "9c47992ceb77129e205fc8eda55330eb81c5caaf594c513f58433130524c8cf5",
-      "size_bytes": 7587,
+      "sha256": "9c1625c875031e63d53798dc0fcfcbf74687a07dabb41230534f377e5ad2c659",
+      "size_bytes": 10919,
       "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
     },
     {
@@ -47,8 +47,8 @@
     },
     {
       "path": "app/streamlit_app.py",
-      "sha256": "fb2c6aed065f6f7072f79a636686ded133b64d86478fb2eb76babaf2ebbc13cd",
-      "size_bytes": 7925,
+      "sha256": "0791ccce8f639dabe501c6f41477eb51ca4d24ae8265f79f315254098aa50477",
+      "size_bytes": 16590,
       "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
     },
     {
@@ -59,8 +59,8 @@
     },
     {
       "path": "docs/DATA_POLICY.md",
-      "sha256": "68cfbf7d1625307bd709dc6d30fc37f319cba8d1f15a978d677c1525a7bfb8ab",
-      "size_bytes": 1962,
+      "sha256": "154b6110d7e0beaf9a0d1ede0c4e57289abe70aab532f00c43026620f4431f8e",
+      "size_bytes": 2664,
       "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
     },
     {
@@ -83,8 +83,8 @@
     },
     {
       "path": "docs/METHODS.md",
-      "sha256": "7b859c65ed8e55269a0dd958f76a219091bf632bd7684ef0c5dd3c272bbebeee",
-      "size_bytes": 3016,
+      "sha256": "80714a35ca5e7193c8d1089ca906f7921702f627f6988a3527a6fb687f68ceda",
+      "size_bytes": 7405,
       "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
     },
     {
@@ -113,8 +113,8 @@
     },
     {
       "path": "docs/VERIFICATION.md",
-      "sha256": "b696eb6c047fa2c5c9f719a0457d43815174bde8f6d2b7c8775fd6ab18ec1b18",
-      "size_bytes": 11754,
+      "sha256": "d68d648ecf30193209cbcebd6ce95aeb62aa792e140f01f05670b76960c578a1",
+      "size_bytes": 19702,
       "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
     },
     {
@@ -449,8 +449,8 @@
     },
     {
       "path": "docs/screenshots/financial.png",
-      "sha256": "111fd52c3696abe23c32d03bbea394568b5c68ba55441ed2e34c4264cf3d74f2",
-      "size_bytes": 368858,
+      "sha256": "16af33653377464c4f19713bcc533326f489faff8114abfb7455c1f28eadb991",
+      "size_bytes": 621152,
       "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
     },
     {
@@ -539,8 +539,8 @@
     },
     {
       "path": "src/public_demo.py",
-      "sha256": "88cbfb8331d7317f700c3ef4dd2fb64d0e57e341919a1d3d263b780e34d12003",
-      "size_bytes": 7634,
+      "sha256": "cebd4b7f434e1d564f03b529c6c558fdbf2571fa529cf30685b120095c6995c0",
+      "size_bytes": 20167,
       "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
     },
     {
@@ -575,14 +575,14 @@
     },
     {
       "path": "tests/test_public_demo.py",
-      "sha256": "c6e5ff65390c022d6527a042a9257cef4187d0a42359e40a59788ca0353a69f8",
-      "size_bytes": 7775,
+      "sha256": "2949de000b439c505536c294b0fe06882a48f44701160f25ac5d036cb28a358b",
+      "size_bytes": 17125,
       "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
     },
     {
       "path": "tests/test_ui.py",
-      "sha256": "be4411f1d43035bd8a1dd4921e29ed945fa63c7f5ce25b4a76ef2009bbae4e2d",
-      "size_bytes": 3778,
+      "sha256": "9209d79a3e8ccc990813c19a1f6521e0852726dbf81322ffa646ba1e27e14462",
+      "size_bytes": 10551,
       "classification": "PROJECT_SOURCE_OR_RELEASE_DOCUMENTATION"
     }
   ]

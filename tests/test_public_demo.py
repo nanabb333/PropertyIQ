@@ -121,3 +121,147 @@ class SyntheticEvidenceTests(unittest.TestCase):
         with patch('socket.socket',side_effect=AssertionError('NO_NETWORK')),patch('os.getenv',side_effect=AssertionError('NO_CREDENTIAL_LOOKUP')):
             p,a,r=case(current_value=750000.);backtest();sensitivity(p,a,5)
             for q in QUESTIONS:evidence(q,p,a,r,5)
+
+class PropertyProfileTests(unittest.TestCase):
+    def test_zip_format(self):
+        for value in ('20008','19103','15213','00001','99999'):
+            self.assertEqual(PropertyProfile(zip_code=value).validate().zip_code,value)
+        for value in ('','2000','200080','20008-1234',' 20008','ABCDE',20008,'２０３００'):
+            with self.subTest(value=value),self.assertRaises(ValueError):PropertyProfile(zip_code=value).validate()
+
+    def test_every_property_type_is_descriptive_until_apply(self):
+        finance=profile_financial_defaults();baseline=profile_case(PropertyProfile(),finance)[2]
+        for kind in PROPERTY_TYPES:
+            profile=PropertyProfile(property_type=kind)
+            p,a,result=profile_case(profile,finance)
+            self.assertEqual(p.property_type,kind)
+            self.assertEqual(result['strategies'],baseline['strategies'])
+            self.assertIn('monthly_rent',synthetic_profile_scenario(profile)['suggestions'])
+        with self.assertRaises(ValueError):PropertyProfile(property_type='Hotel').validate()
+
+    def test_standard_and_custom_layouts(self):
+        for layout,(beds,baths) in LAYOUTS.items():
+            self.assertEqual(PropertyProfile(layout=layout,bedrooms=beds,bathrooms=baths).validate().bedrooms,beds)
+        PropertyProfile(layout='Custom',bedrooms=4,bathrooms=2.5).validate()
+        for kwargs in ({'layout':'Studio'},{'layout':'Unknown'},{'layout':'Custom','bedrooms':-1},
+                       {'layout':'Custom','bathrooms':0},{'layout':'Custom','bedrooms':True}):
+            with self.subTest(kwargs=kwargs),self.assertRaises(ValueError):PropertyProfile(**kwargs).validate()
+
+    def test_invalid_area_and_optional_characteristics(self):
+        for value in (0,-1,float('nan'),float('inf'),True,'900'):
+            with self.subTest(value=repr(value)),self.assertRaises(ValueError):PropertyProfile(interior_sqft=value).validate()
+        PropertyProfile(parking_spaces=0,year_built=2000).validate()
+        for kwargs in ({'parking_spaces':-1},{'parking_spaces':1.5},{'year_built':2027},{'year_built':True}):
+            with self.subTest(kwargs=kwargs),self.assertRaises(ValueError):PropertyProfile(**kwargs).validate()
+
+    def test_calculated_value_per_sqft(self):
+        profile=PropertyProfile(interior_sqft=1000.)
+        self.assertEqual(profile_summary(profile,750000.)['value_per_sqft'],750.)
+        self.assertIn('not an estimated',profile_summary(profile,750000.)['value_per_sqft_definition'])
+        for value in (0,-1,float('nan'),True):
+            with self.assertRaises(ValueError):profile_summary(profile,value)
+
+    def test_fallback_has_no_local_evidence_claim(self):
+        p=synthetic_profile_scenario(PropertyProfile(zip_code='99999'))
+        self.assertEqual(p['fixture'],'GENERIC_FALLBACK')
+        self.assertFalse(p['supported_synthetic_fixture']);self.assertFalse(p['observed_market_evidence'])
+        self.assertIn('not observed ZIP-level',p['source'])
+
+    def test_fixture_formula_and_provenance(self):
+        profile=PropertyProfile(interior_sqft=1000.)
+        p=synthetic_profile_scenario(profile)
+        self.assertEqual(p['suggestions']['monthly_rent']['value'],2400.)
+        self.assertEqual(p['version'],PROFILE_VERSION)
+        self.assertEqual(p['profile_sha256'],fingerprint(asdict(profile)))
+        for field,record in p['suggestions'].items():
+            self.assertEqual(record['unit'],SUGGESTION_UNITS[field])
+            self.assertIn('Authored',record['source']);self.assertTrue(record['definition'])
+        self.assertEqual(p,synthetic_profile_scenario(profile))
+
+    def test_explicit_application_preserves_other_inputs(self):
+        f=profile_financial_defaults();saved=dict(f)
+        for confirm in (False,None,1,'yes'):
+            with self.assertRaises(ValueError):apply_profile_suggestions(f,PropertyProfile(),confirmed=confirm)
+        changed,proposal=apply_profile_suggestions(f,PropertyProfile(),confirmed=True)
+        self.assertEqual(f,saved)
+        for field in f:
+            if field in SUGGESTION_UNITS:self.assertEqual(changed[field],proposal['suggestions'][field]['value'])
+            else:self.assertEqual(changed[field],f[field])
+
+    def test_zip_layout_area_change_does_not_silently_apply(self):
+        finance=profile_financial_defaults()
+        p,a,x=profile_case(PropertyProfile(),finance)
+        q,b,y=profile_case(PropertyProfile(zip_code='19103',layout='3 Bed / 2 Bath',bedrooms=3,interior_sqft=1800.),finance)
+        self.assertEqual(x['strategies'],y['strategies'])
+        self.assertNotEqual(x['profile_scenario'],y['profile_scenario'])
+        self.assertNotEqual(fingerprint(x['assumptions']),fingerprint(y['assumptions']))
+
+    def test_independent_financial_values_and_all_strategies(self):
+        f=profile_financial_defaults();p,a,x=profile_case(PropertyProfile(),f,tax_complete=True)
+        new={**f,'current_value':750000.};q,b,y=profile_case(PropertyProfile(),new,tax_complete=True)
+        self.assertEqual(q.acquisition,p.acquisition);self.assertEqual(q.loan,p.loan)
+        self.assertEqual(q.rental,p.rental);self.assertEqual(q.tax,p.tax)
+        self.assertAlmostEqual(y['current_sale']['pretax_proceeds']-x['current_sale']['pretax_proceeds'],93500.)
+        for old,changed in zip(x['strategies'],y['strategies']):
+            self.assertNotEqual(old['pretax']['npv'],changed['pretax']['npv'])
+            self.assertNotEqual(old['after_tax']['npv'],changed['after_tax']['npv'])
+        q,b,z=profile_case(PropertyProfile(),{**f,'purchase_price':400000.},tax_complete=True)
+        self.assertEqual(q.tax,p.tax);self.assertEqual(z['strategies'],x['strategies'])
+
+    def test_rent_expense_and_debt_edits_recalculate(self):
+        f=profile_financial_defaults();p,a,x=profile_case(PropertyProfile(),f)
+        for field,new in [('monthly_rent',4100.),('loan_balance',300000.),('hoa_monthly',100.),
+                          ('property_tax_annual',6000.),('insurance_annual',2000.),('maintenance_annual',4000.)]:
+            with self.subTest(field=field):
+                q,b,y=profile_case(PropertyProfile(),{**f,field:new})
+                self.assertNotEqual(x['strategies'][2]['pretax']['npv'],y['strategies'][2]['pretax']['npv'])
+
+    def test_profile_evidence_and_review_provenance(self):
+        p,a,r=profile_case(PropertyProfile(),profile_financial_defaults())
+        ev=evidence('Financial grounding',p,a,r,5)
+        self.assertEqual(ev['profile']['zip_code'],'20008')
+        self.assertFalse(ev['scenario_provenance']['observed_market_evidence'])
+        self.assertEqual(review_packet(r,'Hold',True)['input_sha256'],fingerprint(r['assumptions']))
+        self.assertFalse(r['ranking_performed'])
+
+    def test_closed_financial_inputs(self):
+        f=profile_financial_defaults()
+        for changed in ({**f,'url':'https://example.test'}, {**f,'loan_balance':-1},
+                        {**f,'monthly_rent':float('inf')},{**f,'loan_remaining_months':0},
+                        {**f,'loan_annual_rate':2.}):
+            with self.assertRaises(ValueError):profile_case(PropertyProfile(),changed)
+
+    def test_applied_sources_require_receipts(self):
+        f=profile_financial_defaults();sources={k:'Synthetic template default' for k in f}
+        sources['monthly_rent']='Explicitly applied synthetic fixture'
+        with self.assertRaises(ValueError):profile_case(PropertyProfile(),f,sources=sources)
+        sources['monthly_rent']='Observed local market data'
+        with self.assertRaises(ValueError):profile_case(PropertyProfile(),f,sources=sources)
+
+    def test_no_network_files_or_logging(self):
+        import logging
+        from pathlib import Path
+        with patch('socket.socket',side_effect=AssertionError('NO_NETWORK')),\
+             patch('os.getenv',side_effect=AssertionError('NO_CREDENTIAL_LOOKUP')),\
+             patch('builtins.open',side_effect=AssertionError('NO_FILES')),\
+             patch.object(Path,'write_text',side_effect=AssertionError('NO_PERSISTENCE')),\
+             patch.object(logging.Logger,'_log',side_effect=AssertionError('NO_LOGGING')):
+            f,proposal=apply_profile_suggestions(profile_financial_defaults(),PropertyProfile(),confirmed=True)
+            p,a,r=profile_case(PropertyProfile(),f)
+            evidence('Financial grounding',p,a,r,5);sensitivity(p,a,5)
+
+    def test_modified_caller_inputs_are_not_mislabeled_as_defaults(self):
+        f=profile_financial_defaults();f['monthly_rent']=4000.
+        p,a,r=profile_case(PropertyProfile(),f)
+        self.assertEqual(r['assumptions']['financial_input_sources']['monthly_rent'],'User input')
+        self.assertEqual(r['assumptions']['financial_input_sources']['loan_balance'],'Synthetic template default')
+        for index in (True,-1,3):
+            with self.assertRaises(ValueError):profile_financial_defaults(index)
+
+    def test_profile_sensitivity_keeps_units_version_and_sources(self):
+        p,a,r=profile_case(PropertyProfile(),profile_financial_defaults())
+        for row in sensitivity(p,a,5,r):
+            self.assertEqual(row['profile_version'],PROFILE_VERSION)
+            self.assertEqual(row['units']['npv'],'USD')
+            self.assertEqual(row['financial_input_sources'],r['assumptions']['financial_input_sources'])
+            self.assertIn('human review',row['review_requirement'])
